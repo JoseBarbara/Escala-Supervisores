@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fonte_titulo">#FFFFFF</color>
+    <color name="fundo_titulo">#FF0000FF</color>
+    <color name="fonte_texto_branco">#FFFFFFFF</color>
+    <color name="fundo_tela">#000000</color>
+
+</resources>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo_tela"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/EstiloLayout" >
+
+        <TextView
+            style="@style/Titulo"
+            android:text="@string/escala6123" />
+    </LinearLayout>
+
+    <ScrollView style="@style/EstiloLayoutMM" >
+
+        <LinearLayout style="@style/EstiloLayoutMM" >
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/manha" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tarde" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/vespertino" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <TextView
+                    android:id="@+id/tvmanha"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvtarde"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvvespertino"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <TextView
+                    android:id="@+id/textView22"
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/noite" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/folga" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/folga" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <TextView
+                    android:id="@+id/tvnoite1"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga1"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga2"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

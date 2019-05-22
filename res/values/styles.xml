@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="FormatoLayout">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="EstiloLayout" parent="FormatoLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="EstiloLayoutHorizontal" parent="FormatoLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="EstiloLayoutMM" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="EstiloTexto">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Separacao" parent="EstiloTexto">
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+    <style name="Centralizado" parent="Separacao">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="TamanhoTitulo" parent="Centralizado">
+        <item name="android:textSize">@dimen/tam_texto_titulo</item>
+    </style>
+
+    <style name="SubTitulo" parent="Centralizado">
+        <item name="android:textSize">@dimen/tam_texto_padrao</item>
+    </style>
+    <style name="Titulo" parent="TamanhoTitulo">
+        <item name="android:background">@color/fundo_titulo</item>
+        <item name="android:textColor">@color/fonte_titulo</item>
+    </style>
+    <style name="Texto" parent="EstiloTexto">
+        <item name="android:textSize">@dimen/tam_texto_padrao</item>
+        
+    </style>
+    <style name="TextoTrem" parent="EstiloTexto">
+        <item name="android:textSize">@dimen/tam_texto_padrao</item>
+        <item name="android:textColor">@color/fonte_texto_branco</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Espaco" parent="Texto">
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+
+    <style name="Botao" parent="EstiloTexto">
+        <item name="android:textSize">@dimen/tam_texto_titulo</item>
+        
+    </style>
+    <style name="EspacoBotao" parent="Botao">
+        <item name="android:layout_marginTop">20sp</item>
+    </style>
+
+</resources>
+

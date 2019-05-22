@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo_tela"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/EstiloLayout" >
+
+        <TextView
+            style="@style/Titulo"
+            android:text="@string/escala424" />
+    </LinearLayout>
+
+    <ScrollView style="@style/EstiloLayoutMM" >
+
+        <LinearLayout style="@style/EstiloLayoutMM" >
+
+            <LinearLayout
+                style="@style/EstiloLayoutHorizontal"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/manha" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tarde" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/noite" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <Button
+                    android:id="@+id/btnmanha"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="clickNoBotao" />
+
+                <Button
+                    android:id="@+id/btntarde"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="clickNoBotao" />
+
+                <Button
+                    android:id="@+id/btnnoite"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="clickNoBotao" />
+
+            </LinearLayout>
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/folga" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/folga" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/EstiloLayoutHorizontal" >
+
+                <Button
+                    android:id="@+id/btnfolga1"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="clickNoBotao" />
+
+                <Button
+                    android:id="@+id/btnfolga2"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="clickNoBotao" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

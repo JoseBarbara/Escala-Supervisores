@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo_tela"
+    android:orientation="vertical" >
+
+    <LinearLayout style="@style/EstiloLayout" >
+
+        <TextView
+            style="@style/Titulo"
+            android:text="@string/escala4264" />
+    </LinearLayout>
+
+    <ScrollView style="@style/EstiloLayoutMM" >
+
+        <LinearLayout style="@style/EstiloLayoutMM" >
+
+            <LinearLayout
+                style="@style/EstiloLayoutHorizontal"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/manha" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/tarde" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/folga" />
+
+                <TextView
+                    style="@style/TextoTrem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/folga" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/EstiloLayoutHorizontal"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/tvmanha"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvtarde"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga10"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/EstiloLayoutHorizontal"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/tvmanha1"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvtarde1"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga1"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga11"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/EstiloLayoutHorizontal"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/tvmanha2"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvtarde2"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga2"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/tvfolga22"
+                    style="@style/Texto"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

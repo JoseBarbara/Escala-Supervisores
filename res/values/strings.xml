@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Escalas</string>
+    <string name="titulo">Escalas</string>
+    <string name="action_settings">Settings</string>
+    <string name="dataAtualizacao">Atualizado em 21/05/2019</string>
+    
+    <string name="icone">icone</string>    
+    <string name="menu">Sobre</string>
+    <string name="sobre">Sobre</string>
+    <string name ="toast_titulo">Escala dos Supervisores</string> 
+	<string name ="toast_base">Base</string>    
+	<string name ="toast_semanal">Semanal</string>
+	
+    <string name="botoes"><![CDATA[<]]></string>
+    <string name="botoes1">botoes1</string>
+    <string name="botoes2"><![CDATA[>]]></string>
+
+    <string name="escala424">4 x 2 x 4</string>
+    <string name="escala42410">4 X 2 X 4 (10 letras)</string>
+    <string name="escala4143">4 X 1 X 4 X 3</string>
+    <string name="escala4264">4 X 2 X 6 X 4</string>
+    <string name="escala6123">6 X 1 X 2 X 3</string>
+    <string name="escala6152">6 X 1 X 5 X 2</string>
+    <string name="escala5261">5 X 2 e 6 X 1</string>
+    <string name="escala5261posicao">Posição</string>
+    <string name="escala5261tvdiadasemana">Dia da Semana</string>
+    <string name="escala52">5 X 2</string>
+    
+    <string name="btvoltardata"><![CDATA[<]]></string>
+    <string name="btadiantardata"><![CDATA[>]]></string>
+    <string name="bthoje">Hoje</string>
+    <string name="btcalendario">Calendario</string>
+    <string name="tvdata">Data:</string>
+    <string name="tvEscolhaData">Escolha a Escala</string>
+    
+    <string name="linha1">Linha 1</string>
+    <string name="linha2">Linha 2</string>
+    <string name="linha3">Linha 3</string>
+    <string name="linha5">Linha 5</string>
+    <string name="linha15">Linha 15</string>
+    
+    <string name="manha">Manhã</string>
+    <string name="tarde">Tarde</string>
+    <string name="noite">Noite</string>
+    <string name="folga">Folga</string>    
+    <string name="vespertino">Vesp.</string>
+    
+    <string name="semanal1">Semana 1</string>
+    <string name="semanal2">Semanal 2</string>
+    <string name="semanal3">Semanal 3</string>
+    <string name="semanal4">Semanal 4</string>
+    <string name="trabalhasabado">TS - Trabalha Sábado</string>
+    
+    <string name="logo_metro">Logo Metrô</string>
+    
+    <string-array name="escala_a">
+        <item>Linha 1: João Lucio</item>
+        <item>Linha 2: Ivan Silva</item>
+        <item>Linha 3: Antonio Carlos - Castilho Junior</item>
+        <item>Linha 15: </item>
+    </string-array>
+ 
+    <string-array name="escala_b">
+        <item>Linha 1: Uziel - Luiz Alves</item>
+        <item>Linha 2: Roseli Castro - Horácio Torres</item>
+        <item>Linha 3: Julio Silva</item>
+        <item>Linha 15: Fred</item>
+    </string-array>
+    
+    <string-array name="escala_c">
+        <item>Linha 1: Vicente Oliveira - Alessandro</item>
+        <item>Linha 2: Henriques - Jairo Castro</item>
+        <item>Linha 3: Genilson Andrade</item>
+        <item>Linha 15: Mathias</item>
+    </string-array>
+    
+    <string-array name="escala_d">
+        <item>Linha 1: Marchezini - Laurivaldo</item>
+        <item>Linha 2: Tarcisio Machado - Osvaldo Alves</item>
+        <item>Linha 3: Paulo Flavio - Emiliano - Jazão</item>
+        <item>Linha 15: José Leme</item>
+    </string-array>
+
+    <string-array name="escala_e">
+        <item>Linha 1: Otacilio</item>
+        <item>Linha 2: Rafael Pereira</item>
+        <item>Linha 3: </item>
+        <item>Linha 15: </item>
+    </string-array>
+    
+    <string-array name="semanal">
+        <item>Linha 1: Lapa</item>
+        <item>Linha 2: Wagner Knopp</item>
+        <item>Linha 3: Antonio Carlos - Castilho Junior</item>
+        <item>Linha 15: </item>
+    </string-array>
+       
+</resources>
